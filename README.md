@@ -46,8 +46,7 @@ A comprehensive **WhatsApp Chat Analyzer** built with Python and Streamlit that 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/whatsapp-chat-analyzer.git
-   cd whatsapp-chat-analyzer
+   git clone https://github.com/omrinahum/WhatsappAnalayzer.git
    ```
 
 2. **Install dependencies**
@@ -91,7 +90,7 @@ A comprehensive **WhatsApp Chat Analyzer** built with Python and Streamlit that 
 ## 🏗️ Project Structure
 
 ```
-whatsapp-chat-analyzer/
+WhatsappAnalyzer/
 ├── src/
 │   ├── streamlit_app.py      # Main Streamlit application
 │   ├── analyzer.py           # Core analysis functions
@@ -130,41 +129,3 @@ The analyzer supports WhatsApp export formats from:
 - ✅ WhatsApp Web
 - ✅ Multiple languages (Hebrew, English, and more)
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-### Development Setup
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🐛 Issues & Support
-
-If you encounter any issues or have questions:
-1. Check the [Issues](https://github.com/yourusername/whatsapp-chat-analyzer/issues) page
-2. Create a new issue with detailed description
-3. Include your Python version and operating system
-
-## 🚀 Future Enhancements
-
-- [ ] Support for group chat role analysis
-- [ ] Sentiment analysis integration
-- [ ] Export functionality for analysis results
-- [ ] Advanced filtering options
-- [ ] Additional visualization types
-- [ ] Multi-language stopword support
-
-## ⭐ Star History
-
-If you found this project helpful, please consider giving it a star! It helps others discover the project.
-
----
-
-**Made with ❤️ and Python**
