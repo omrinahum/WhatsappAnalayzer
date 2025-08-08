@@ -1,0 +1,124 @@
+[5.8.2025, 08:30:15] John Smith: Good morning everyone!
+[5.8.2025, 08:30:22] Sarah Johnson: Morning John! How are you?
+[5.8.2025, 08:30:45] Mike Davis: Hey guys! Ready for another great day?
+[5.8.2025, 08:31:02] John Smith: Absolutely! Got my coffee and ready to go
+[5.8.2025, 08:31:18] Sarah Johnson: Same here! ☕ Coffee is life
+[5.8.2025, 08:31:35] Mike Davis: Haha totally agree! Speaking of coffee...
+[5.8.2025, 08:31:52] Mike Davis: Did you guys hear about that new coffee shop downtown?
+[5.8.2025, 08:32:10] John Smith: No! What about it?
+[5.8.2025, 08:32:28] Sarah Johnson: Tell us! I'm always looking for good coffee
+[5.8.2025, 08:32:45] Mike Davis: They're opening this weekend with free coffee for the first 100 customers!
+[5.8.2025, 08:33:02] John Smith: That sounds amazing! We should definitely go
+[5.8.2025, 08:33:20] Sarah Johnson: Count me in! What time do they open?
+[5.8.2025, 08:33:38] Mike Davis: 7 AM sharp! But we should get there early
+[5.8.2025, 08:33:55] John Smith: 7 AM? That's early but worth it for free coffee lol
+[5.8.2025, 08:34:12] Sarah Johnson: I can pick everyone up if needed
+[5.8.2025, 08:34:30] Mike Davis: That would be great! Thanks Sarah 😊
+[5.8.2025, 08:34:48] John Smith: Perfect! What time should we meet?
+[5.8.2025, 08:35:05] Sarah Johnson: How about 6:30 AM? That gives us plenty of time
+[5.8.2025, 08:35:22] Mike Davis: Sounds good to me! See you bright and early
+[5.8.2025, 12:15:30] Emily Wilson: Hey everyone! What's all this about coffee?
+[5.8.2025, 12:15:48] John Smith: Hi Emily! We're planning to hit up a new coffee shop
+[5.8.2025, 12:16:05] Emily Wilson: Ooh can I join? I love trying new places!
+[5.8.2025, 12:16:22] Sarah Johnson: Of course! The more the merrier 🎉
+[5.8.2025, 12:16:40] Mike Davis: Welcome to the coffee crew Emily!
+[5.8.2025, 12:16:58] Emily Wilson: Yay! This is going to be so much fun
+[5.8.2025, 12:17:15] John Smith: We're meeting at 6:30 AM tomorrow. Sarah's driving
+[5.8.2025, 12:17:32] Emily Wilson: 6:30 AM?! That's really early but I'm in! 😴
+[5.8.2025, 12:17:50] Sarah Johnson: Haha sorry! Early bird gets the worm... or coffee in this case
+[5.8.2025, 12:18:08] Mike Davis: lol exactly! Free coffee is worth losing a little sleep
+[5.8.2025, 12:18:25] Emily Wilson: True! I'll set like 5 alarms just to be safe
+[5.8.2025, 12:18:42] John Smith: Good thinking! I always do that for early meetings
+[5.8.2025, 14:45:12] Sarah Johnson: Just finished my lunch. Anyone else starving?
+[5.8.2025, 14:45:30] Mike Davis: Always! What did you have?
+[5.8.2025, 14:45:48] Sarah Johnson: Made a delicious pasta salad. Want the recipe?
+[5.8.2025, 14:46:05] Emily Wilson: Yes please! I love pasta salad
+[5.8.2025, 14:46:22] John Smith: Same here! Sarah's recipes are always amazing
+[5.8.2025, 14:46:40] Sarah Johnson: Aww thanks guys! I'll send it later
+[5.8.2025, 14:46:58] Mike Davis: You should start a food blog Sarah
+[5.8.2025, 14:47:15] Sarah Johnson: Haha maybe someday! Right now I just cook for fun
+[5.8.2025, 14:47:32] Emily Wilson: Well we definitely appreciate being your taste testers! 😋
+[5.8.2025, 14:47:50] John Smith: Absolutely! Remember that amazing lasagna last month?
+[5.8.2025, 14:48:08] Sarah Johnson: Oh that was fun to make! Took forever though
+[5.8.2025, 14:48:25] Mike Davis: Worth every minute! Best lasagna I've ever had
+[5.8.2025, 18:30:45] John Smith: How's everyone's afternoon going?
+[5.8.2025, 18:31:02] Emily Wilson: Pretty good! Just finished a big project at work
+[5.8.2025, 18:31:20] Sarah Johnson: Nice! What kind of project?
+[5.8.2025, 18:31:38] Emily Wilson: Marketing campaign for a new product launch
+[5.8.2025, 18:31:55] Mike Davis: That sounds exciting! What's the product?
+[5.8.2025, 18:32:12] Emily Wilson: Can't say too much but it's in the tech space
+[5.8.2025, 18:32:30] John Smith: Very mysterious! 🕵️‍♂️
+[5.8.2025, 18:32:48] Emily Wilson: Haha I know! NDAs are no joke
+[5.8.2025, 18:33:05] Sarah Johnson: Totally understand! Work can be so secretive sometimes
+[5.8.2025, 18:33:22] Mike Davis: Well whatever it is, I'm sure you did an amazing job!
+[5.8.2025, 18:33:40] Emily Wilson: Thanks Mike! I'm pretty proud of how it turned out
+[5.8.2025, 19:15:18] Mike Davis: Anyone up for dinner tonight?
+[5.8.2025, 19:15:35] John Smith: What did you have in mind?
+[5.8.2025, 19:15:52] Mike Davis: There's this new sushi place I've been wanting to try
+[5.8.2025, 19:16:10] Sarah Johnson: Ooh I love sushi! Count me in
+[5.8.2025, 19:16:28] Emily Wilson: Same! Is it expensive?
+[5.8.2025, 19:16:45] Mike Davis: Moderate prices from what I saw online. Nothing crazy
+[5.8.2025, 19:17:02] John Smith: Sounds perfect! What time?
+[5.8.2025, 19:17:20] Mike Davis: How about 7:30? Gives everyone time to get ready
+[5.8.2025, 19:17:38] Sarah Johnson: Perfect timing! See you all there
+[5.8.2025, 19:17:55] Emily Wilson: Can't wait! I've been craving sushi all week 🍣
+[5.8.2025, 19:18:12] John Smith: This is going to be great! Love trying new restaurants
+[5.8.2025, 21:45:22] Sarah Johnson: That sushi was incredible! Thanks for the suggestion Mike
+[5.8.2025, 21:45:40] Emily Wilson: Agreed! Best salmon roll I've ever had
+[5.8.2025, 21:45:58] Mike Davis: So glad you all liked it! The chef was amazing
+[5.8.2025, 21:46:15] John Smith: Definitely going back soon. That tempura was perfect
+[5.8.2025, 21:46:32] Sarah Johnson: We should make this a monthly thing!
+[5.8.2025, 21:46:50] Emily Wilson: Monthly sushi nights? I'm totally in! 🍱
+[5.8.2025, 21:47:08] Mike Davis: Great idea! I'll keep an eye out for other good spots
+[5.8.2025, 21:47:25] John Smith: Perfect! Can't wait for next month already
+[6.8.2025, 06:15:30] Sarah Johnson: Good morning coffee crew! Ready for our adventure?
+[6.8.2025, 06:15:48] Emily Wilson: Morning! I'm awake but barely lol
+[6.8.2025, 06:16:05] Mike Davis: Same here! Coffee can't come soon enough ☕
+[6.8.2025, 06:16:22] John Smith: I'm surprisingly awake! Must be the excitement
+[6.8.2025, 06:16:40] Sarah Johnson: Haha that's the spirit! I'll be there in 10 minutes
+[6.8.2025, 06:16:58] Emily Wilson: I'll be ready! Just need to grab my jacket
+[6.8.2025, 06:17:15] Mike Davis: See you soon! This is going to be epic
+[6.8.2025, 07:45:12] John Smith: We made it! And the coffee is absolutely amazing ☕
+[6.8.2025, 07:45:30] Sarah Johnson: Right?! This place has such a cozy atmosphere too
+[6.8.2025, 07:45:48] Emily Wilson: I'm so glad we came! Worth getting up early for sure
+[6.8.2025, 07:46:05] Mike Davis: Best free coffee ever! And the barista was so friendly
+[6.8.2025, 07:46:22] Sarah Johnson: They really know what they're doing here
+[6.8.2025, 07:46:40] John Smith: We should definitely come back next weekend
+[6.8.2025, 07:46:58] Emily Wilson: Absolutely! But maybe at a more reasonable hour 😴
+[6.8.2025, 07:47:15] Mike Davis: Haha deal! 9 AM sound better?
+[6.8.2025, 07:47:32] Sarah Johnson: Much better! I can actually be human at 9 AM
+[6.8.2025, 07:47:50] John Smith: It's settled then! Weekly coffee meetups at 9 AM
+[6.8.2025, 11:30:45] Emily Wilson: I'm still thinking about that coffee! So good
+[6.8.2025, 11:31:02] Mike Davis: Same here! Already planning to go back tomorrow lol
+[6.8.2025, 11:31:20] Sarah Johnson: You guys are addicted already! 😂
+[6.8.2025, 11:31:38] John Smith: Can you blame us? That was some seriously good coffee
+[6.8.2025, 11:31:55] Emily Wilson: Plus the vibe was perfect for working or studying
+[6.8.2025, 11:32:12] Mike Davis: True! I might make it my new office
+[6.8.2025, 11:32:30] Sarah Johnson: Remote work from the coffee shop? I like it!
+[6.8.2025, 11:32:48] John Smith: As long as you don't drink too much caffeine lol
+[6.8.2025, 11:33:05] Mike Davis: No promises! ☕☕☕
+[6.8.2025, 15:20:18] Sarah Johnson: What's everyone doing this evening?
+[6.8.2025, 15:20:35] John Smith: Nothing planned. You have something in mind?
+[6.8.2025, 15:20:52] Sarah Johnson: Movie night at my place? I have popcorn! 🍿
+[6.8.2025, 15:21:10] Emily Wilson: That sounds perfect! What movie?
+[6.8.2025, 15:21:28] Mike Davis: I'm in! Any genre preferences?
+[6.8.2025, 15:21:45] Sarah Johnson: How about a comedy? Something light and fun
+[6.8.2025, 15:22:02] John Smith: Perfect choice! I could use some laughs
+[6.8.2025, 15:22:20] Emily Wilson: Same! Comedy it is. What time?
+[6.8.2025, 15:22:38] Sarah Johnson: How about 7 PM? Gives everyone time to grab dinner
+[6.8.2025, 15:22:55] Mike Davis: Sounds great! I'll bring some snacks
+[6.8.2025, 15:23:12] John Smith: And I'll grab some drinks on the way
+[6.8.2025, 15:23:30] Emily Wilson: This is going to be so much fun! Can't wait
+[6.8.2025, 22:15:45] Mike Davis: That movie was hilarious! Thanks for hosting Sarah
+[6.8.2025, 22:16:02] Emily Wilson: Agreed! I haven't laughed that hard in ages 😂
+[6.8.2025, 22:16:20] John Smith: Perfect way to end the day! Great choice Sarah
+[6.8.2025, 22:16:38] Sarah Johnson: So glad you all enjoyed it! I love hosting movie nights
+[6.8.2025, 22:16:55] Mike Davis: We should make this a regular thing too!
+[6.8.2025, 22:17:12] Emily Wilson: Yes! Weekly coffee mornings and movie nights
+[6.8.2025, 22:17:30] John Smith: I love how we're building all these traditions 😊
+[6.8.2025, 22:17:48] Sarah Johnson: Best friend group ever! You guys are awesome
+[6.8.2025, 22:18:05] Mike Davis: Aww thanks Sarah! Right back at you
+[6.8.2025, 22:18:22] Emily Wilson: Group hug! 🤗 Well, virtual group hug
+[6.8.2025, 22:18:40] John Smith: Haha love you guys! Sleep well everyone
+[6.8.2025, 22:18:58] Sarah Johnson: Sweet dreams! See you for coffee next weekend
+[6.8.2025, 22:19:15] Mike Davis: Goodnight everyone! Already looking forward to it

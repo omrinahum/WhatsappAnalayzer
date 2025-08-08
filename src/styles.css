@@ -1,0 +1,217 @@
+/* WhatsApp Chat Analyzer - Custom Styles */
+
+/* Import premium font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Main app background */
+.stApp {
+    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    color: #f0f4f8;
+}
+
+/* Main container */
+.main {
+    padding: 1rem;
+}
+
+/* Custom font for entire app */
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+    color: #f0f4f8;
+}
+
+/* Header styling */
+.main-header {
+    text-align: center;
+    padding: 2.5rem 0;
+    background: linear-gradient(135deg, #134e4a 0%, #065f46 50%, #047857 100%);
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    color: white;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    background: linear-gradient(180deg, #134e4a 0%, #065f46 100%);
+    border-right: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.css-1d391kg .css-1lcbmhc {
+    color: #f0f4f8;
+}
+
+/* Metric cards */
+[data-testid="metric-container"] {
+    background: linear-gradient(135deg, #134e4a 0%, #065f46 100%);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    color: #f0f4f8;
+}
+
+[data-testid="metric-container"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    border-color: rgba(16, 185, 129, 0.6);
+}
+
+[data-testid="metric-container"] > div {
+    color: #f0f4f8 !important;
+}
+
+[data-testid="metric-container"] [data-testid="metric-value"] {
+    color: #10b981 !important;
+    font-weight: 700;
+}
+
+/* Tab styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 1rem;
+    background: linear-gradient(135deg, #134e4a 0%, #065f46 100%);
+    border-radius: 15px;
+    padding: 0.8rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 3.5rem;
+    padding: 0 2rem;
+    background: transparent;
+    border-radius: 10px;
+    color: #94a3b8;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.stTabs [aria-selected="true"] {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white !important;
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+}
+
+/* Chart containers */
+.chart-section {
+    background: linear-gradient(135deg, #134e4a 0%, #065f46 100%);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    transition: all 0.3s ease;
+}
+
+.chart-section:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* Subheader styling */
+.stSubheader, h3, h4 {
+    color: #f0f4f8 !important;
+    font-weight: 600 !important;
+    margin-bottom: 1rem !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+/* Success messages */
+.stSuccess {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Info messages */
+.stInfo {
+    background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Error messages */
+.stError {
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Expander styling */
+.streamlit-expanderHeader {
+    background: linear-gradient(135deg, #065f46 0%, #047857 100%);
+    border-radius: 10px;
+    font-weight: 500;
+    color: #f0f4f8;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.streamlit-expanderContent {
+    background: linear-gradient(135deg, #134e4a 0%, #065f46 100%);
+    border-radius: 0 0 10px 10px;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-top: none;
+}
+
+/* File uploader */
+[data-testid="stFileUploader"] {
+    background: linear-gradient(135deg, #065f46 0%, #047857 100%);
+    border: 2px dashed rgba(16, 185, 129, 0.5);
+    border-radius: 15px;
+    padding: 1.5rem;
+    color: #f0f4f8;
+}
+
+/* Buttons */
+.stButton > button {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.8rem 2rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(16, 185, 129, 0.5);
+    background: linear-gradient(135deg, #059669 0%, #047857 100%);
+}
+
+/* Markdown text color */
+.stMarkdown {
+    color: #f0f4f8;
+}
+
+/* Dataframe styling */
+.stDataFrame {
+    background: linear-gradient(135deg, #134e4a 0%, #065f46 100%);
+    border-radius: 10px;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+/* Spinner */
+.stSpinner > div {
+    border-top-color: #10b981 !important;
+}
+
+/* Remove padding from main container */
+.block-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Title styling */
+h1 {
+    color: #f0f4f8 !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 700 !important;
+}
