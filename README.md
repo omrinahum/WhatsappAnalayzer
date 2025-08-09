@@ -136,7 +136,7 @@ The project includes comprehensive tests to ensure reliability and accuracy:
 
 ### Running Tests
 ```bash
-python test_simple.py
+python -m pytest
 ```
 
 ### Test Coverage

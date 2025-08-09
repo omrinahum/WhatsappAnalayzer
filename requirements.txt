@@ -5,3 +5,4 @@ arabic-reshaper>=3.0.0
 python-bidi>=0.4.2
 wordcloud>=1.9.2
 matplotlib>=3.7.0
+pytest>=7.0.0
