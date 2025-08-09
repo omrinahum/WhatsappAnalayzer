@@ -38,10 +38,6 @@ A comprehensive **WhatsApp Chat Analyzer** built with Python and Streamlit that 
 
 ## 🚀 Quick Start
 
-### Prerequisites
-- Python 3.8 or higher
-- pip package manager
-
 ### Installation
 
 1. **Clone the repository**
