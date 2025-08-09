@@ -96,9 +96,11 @@ WhatsappAnalyzer/
 │   ├── file_utils.py         # File handling utilities
 │   ├── hebrew_utils.py       # Hebrew text processing
 │   └── main.py               # Alternative entry point
+├── tests/
+│   ├── test.parser.py        # Parser functionallity tests
+│   ├── test.analyzer.py      # Analyzer functionallity tests
 ├── requirements.txt          # Python dependencies
 └── README.md                 # This file
-└── tests.py                  # Tester for project functionallity  
 ```
 
 ## 🔧 Technical Details
