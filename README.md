@@ -99,9 +99,10 @@ WhatsappAnalyzer/
 │   ├── ui_components.py      # UI components and layouts
 │   ├── file_utils.py         # File handling utilities
 │   ├── hebrew_utils.py       # Hebrew text processing
-│   └── main.py              # Alternative entry point
+│   └── main.py               # Alternative entry point
 ├── requirements.txt          # Python dependencies
-└── README.md                # This file
+└── README.md                 # This file
+└── tests.py                  # Tester for project functionallity  
 ```
 
 ## 🔧 Technical Details
@@ -129,3 +130,18 @@ The analyzer supports WhatsApp export formats from:
 - ✅ WhatsApp Web
 - ✅ Multiple languages (Hebrew, English, and more)
 
+## 🧪 Testing
+
+The project includes comprehensive tests to ensure reliability and accuracy:
+
+### Running Tests
+```bash
+python test_simple.py
+```
+
+### Test Coverage
+- **Parser Testing**: Validates Hebrew and English date format parsing
+- **Analysis Functions**: Tests all analysis components (emojis, laughs, response times, etc.)
+- **Format Compatibility**: Ensures support for different WhatsApp export formats
+- **Edge Cases**: Handles empty files, invalid formats, and error conditions
+- **System Message Filtering**: Verifies proper filtering of WhatsApp system messages

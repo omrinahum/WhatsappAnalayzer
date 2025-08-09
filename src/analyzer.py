@@ -2,10 +2,11 @@
 Analyzing functions the analyze the data
 """
 
+import emoji
 import pandas as pd
 from collections import Counter
 import re
-import streamlit as st
+import emoji
 
 def preprocess_df(df: pd.DataFrame) -> pd.DataFrame:
     """Preprocess dataframe with all needed columns for the analyzing process"""
@@ -17,26 +18,22 @@ def preprocess_df(df: pd.DataFrame) -> pd.DataFrame:
     df['message_length'] = df['message'].str.len()
     df['hour'] = df['datetime'].dt.hour
     df['day_name'] = df['datetime'].dt.day_name()
-    
-    # Add emoji analysis - extract emojis from each message
+
+    # Emoji extraction
     def extract_emojis(text):
-        """Extract emoji characters from text using Unicode ranges"""
-        # Unicode ranges for emojis
-        emoji_pattern = re.compile(
-            "["
-            "\U0001F600-\U0001F64F"  # emoticons
-            "\U0001F300-\U0001F5FF"  # symbols & pictographs
-            "\U0001F680-\U0001F6FF"  # transport & map symbols
-            "\U0001F1E0-\U0001F1FF"  # flags (iOS)
-            "\U00002702-\U000027B0"  # dingbats
-            "\U000024C2-\U0001F251"
-            "]+"
-        )
-        return emoji_pattern.findall(str(text))
-    
+        """Extract emoji characters from text using emoji package"""
+        try:
+            emojis_in_text = []
+            for char in str(text):
+                if emoji.is_emoji(char):
+                    emojis_in_text.append(char)
+            return emojis_in_text
+        except Exception:
+            return []
+        
     df['emojis'] = df['message'].apply(extract_emojis)
     df['emoji_count'] = df['emojis'].apply(len)
-    
+        
     return df
 
 def calculate_basic_stats(df: pd.DataFrame):
@@ -120,10 +117,10 @@ def get_avg_response(df: pd.DataFrame):
     }
 
 def calculate_emoji_analysis(df: pd.DataFrame):
-    """Calculate emoji usage statistics per user"""
+    """Calculate emoji usage statistics per user using emoji package"""
     emoji_per_user = df.groupby('user')['emoji_count'].sum().sort_values(ascending=False)
     
-    # Get most common emojis overall
+    # Get most common emojis overall - now with accurate detection
     all_emojis = []
     for emojis in df['emojis']:
         all_emojis.extend(emojis)
