@@ -7,7 +7,9 @@ import re
 from datetime import datetime
 
 def parse_whatsapp(file_path):
-    """ Parsing data according to Whatsapp exoprting format"""
+    """
+    Parsing data according to Whatsapp exporting format
+    """
     # Containts tuples of datetime, user, and message
     chat_data = []
 
