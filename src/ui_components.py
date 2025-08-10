@@ -6,7 +6,9 @@ import streamlit as st
 
 
 def load_css():
-    """Load custom CSS styles from external file"""
+    """
+    Load custom CSS styles from external file
+    """
     try:
         with open("styles.css", "r") as f:
             css_content = f.read()
@@ -16,7 +18,9 @@ def load_css():
 
 
 def render_header():
-    """Render the main header section"""
+    """
+    Render the main header section
+    """
     st.markdown("""
     <div class="main-header">
         <h1 style="margin: 0; font-size: 3rem; font-weight: 700;">
@@ -29,7 +33,9 @@ def render_header():
 
 
 def render_sidebar():
-    """Render the sidebar with file upload functionality"""
+    """
+    Render the sidebar with file upload functionality
+    """
     st.sidebar.markdown("""
     <div style="text-align: center; padding: 1rem 0; background: linear-gradient(135deg, #065f46 0%, #047857 100%); border-radius: 10px; margin-bottom: 1rem;">
         <h3 style="color: white; margin: 0;">📁 Upload Chat File</h3>
@@ -49,7 +55,9 @@ def render_sidebar():
 
 
 def render_metrics(stats):
-    """Render the metrics overview section"""
+    """
+    Render the metrics overview section
+    """
     st.markdown("### 📊 Chat Overview")
     col1, col2, col3, col4 = st.columns(4)
     
@@ -66,7 +74,9 @@ def render_metrics(stats):
 
 
 def render_chat_analysis_tab(results, visualizer_funcs):
-    """Render the Chat Analysis tab content (formerly User Analysis)"""
+    """
+    Render the Chat Analysis tab content (formerly User Analysis)
+    """
     col1, col2 = st.columns(2)
     
     with col1:
@@ -116,7 +126,9 @@ def render_chat_analysis_tab(results, visualizer_funcs):
         """)
 
 def render_user_analysis_tab(results, visualizer_funcs):
-    """Render the Individual User Analysis tab with user selector"""
+    """
+    Render the Individual User Analysis tab with user selector
+    """
     st.markdown("#### 👤 Select User for Individual Analysis")
     
     # User selector
@@ -184,7 +196,9 @@ def render_user_analysis_tab(results, visualizer_funcs):
             """)
 
 def render_words_emojis_tab(results, visualizer_funcs):
-    """Render the Words & Emojis tab content (formerly Word Analysis)"""
+    """
+    Render the Words & Emojis tab content (formerly Word Analysis)
+    """
     col1, col2 = st.columns(2)
     
     with col1:
@@ -212,7 +226,9 @@ def render_words_emojis_tab(results, visualizer_funcs):
 
 
 def render_time_analysis_tab(results, visualizer_funcs):
-    """Render the Time Patterns tab content"""
+    """
+    Render the Time Patterns tab content
+    """
     st.markdown("#### 🕒 Activity by Hour")
     fig = visualizer_funcs['by_hour'](results['messages_by_hour'])
     st.plotly_chart(fig, use_container_width=True)
@@ -224,7 +240,9 @@ def render_time_analysis_tab(results, visualizer_funcs):
         st.markdown(f"**{i+1}.** {hour:02d}:00 - {count:,} messages")
 
 def render_landing_page():
-    """Render the landing page when no file is uploaded"""
+    """
+    Render the landing page when no file is uploaded
+    """
     st.markdown("""
     ## 🚀 Welcome to WhatsApp Chat Analyzer
     

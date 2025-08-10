@@ -35,7 +35,9 @@ from file_utils import load_chat_data, validate_chat_data
 
 
 def configure_page():
-    """Configure Streamlit page settings"""
+    """
+    Configure Streamlit page settings
+    """
     st.set_page_config(
         page_title="WhatsApp Chat Analyzer",
         page_icon="📱",
@@ -45,7 +47,9 @@ def configure_page():
 
 
 def get_visualizer_functions():
-    """Return dictionary of visualizer functions for easy passing"""
+    """
+    Return dictionary of visualizer functions for easy passing
+    """
     return {
         'by_hour': get_fig_messages_by_hour,
         'per_user': get_fig_messages_per_user,
@@ -62,7 +66,9 @@ def get_visualizer_functions():
 
 
 def process_chat_analysis(df):
-    """Process chat data and return analysis results with session state caching"""
+    """
+    Process chat data and return analysis results with session state caching
+    """
     # Create a hash of the DataFrame for caching
     df_hash = hash(str(df.shape) + str(df.head().to_string()) + str(df.tail().to_string()))
     
@@ -82,7 +88,10 @@ def process_chat_analysis(df):
 
 
 def render_analysis_tabs(results):
-    """Render the main analysis tabs"""
+    """
+    Render the main analysis tabs
+    """
+    # Get visualizer functions
     visualizer_funcs = get_visualizer_functions()
 
     # Create tabs for different analysis sections
@@ -102,14 +111,18 @@ def render_analysis_tabs(results):
 
 
 def handle_error(error):
-    """Handle and display errors with debug information"""
+    """
+    Handle and display errors with debug information
+    """
     st.error(f"❌ Error: {str(error)}")
     with st.expander("🐛 Debug Information"):
         st.code(traceback.format_exc())
 
 
 def main():
-    """Main application function"""
+    """
+    Main application function
+    """
     # Configure page
     configure_page()
     
