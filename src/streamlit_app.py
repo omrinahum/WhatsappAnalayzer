@@ -69,10 +69,12 @@ def process_chat_analysis(df):
     """
     Process chat data and return analysis results with session state caching
     """
-    # Create a hash of the DataFrame for caching
+    # Create a hash of the DataFrame for caching, so we can avoid re-analysis
+    # The hash is based on the DataFrame's shape and a string representation of its first and last 5 rows
     df_hash = hash(str(df.shape) + str(df.head().to_string()) + str(df.tail().to_string()))
-    
-    # Check if we already have this analysis cached
+
+    # Check if we already have this analysis cached, if not we will compute it
+    # and store it in the cache - with a dict
     if 'analysis_cache' not in st.session_state:
         st.session_state.analysis_cache = {}
     

@@ -32,6 +32,11 @@ html, body, [class*="css"] {
     border: 1px solid rgba(16, 185, 129, 0.2);
 }
 
+/* Hide Streamlit toolbar */
+header[data-testid="stHeader"] { display: none; }
+[data-testid="stToolbar"] { display: none !important; }
+[data-testid="stDecoration"] { display: none !important; }
+
 /* Sidebar styling */
 .css-1d391kg {
     background: linear-gradient(180deg, #134e4a 0%, #065f46 100%);

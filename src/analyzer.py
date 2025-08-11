@@ -17,6 +17,26 @@ _EMOJI_QUICK_ROW = re.compile(
     r"]"
 )
 
+def preprocess_df(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Preprocess dataframe with all needed columns for the analyzing process
+    """
+    df = df.copy()
+    # Converting the messages to string
+    df['message'] = df['message'].astype(str)
+
+    # New columns: lowercase message, message length, hour, day name
+    df['lower_message'] = df['message'].str.lower()
+    df['message_length'] = df['message'].str.len()
+    df['hour'] = df['datetime'].dt.hour
+    df['day_name'] = df['datetime'].dt.day_name()
+
+    # Extract emojis from messages
+    df['emojis'] = extract_emojis(df)
+    df['emoji_count'] = df['emojis'].apply(len)
+        
+    return df
+
 def extract_emojis(df: pd.DataFrame) -> pd.Series:
     """
     Extract emojis from a DataFrame column.
@@ -40,26 +60,6 @@ def extract_emojis(df: pd.DataFrame) -> pd.Series:
     df['emoji_count'] = df['emojis'].apply(len)
 
     return df['emojis']
-
-def preprocess_df(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Preprocess dataframe with all needed columns for the analyzing process
-    """
-    df = df.copy()
-    # Converting the messages to string
-    df['message'] = df['message'].astype(str)
-
-    # New columns: lowercase message, message length, hour, day name
-    df['lower_message'] = df['message'].str.lower()
-    df['message_length'] = df['message'].str.len()
-    df['hour'] = df['datetime'].dt.hour
-    df['day_name'] = df['datetime'].dt.day_name()
-
-    # Extract emojis from messages
-    df['emojis'] = extract_emojis(df)
-    df['emoji_count'] = df['emojis'].apply(len)
-        
-    return df
 
 def calculate_basic_stats(df: pd.DataFrame):
     """
@@ -144,12 +144,14 @@ def get_avg_response(df: pd.DataFrame):
     changed = df_sorted['user'].ne(prev_user)
     gaps = df_sorted['datetime'] - prev_time
 
-    # Create mask for valid response times
+    # Create mask for valid response times, when user changed, and the gap is under 6 hours
     mask = changed & gaps.notna() & (gaps <= pd.Timedelta(hours=6))
 
+    # Get the responders and their mean response times
     responders = df_sorted.loc[mask, 'user']
     mean_resp = gaps[mask].groupby(responders).mean().sort_values(ascending=False)
 
+    # Format the timedelta objects to 0h 0m 0s for display
     def format_td(td: pd.Timedelta) -> str:
         total = int(td.total_seconds())
         h, rem = divmod(total, 3600)
@@ -190,11 +192,12 @@ def calculate_message_bursts(df: pd.DataFrame, burst_threshold_minutes=5, min_bu
     is_new_burst = gaps_minutes.isna() | (gaps_minutes > burst_threshold_minutes)
 
     # Assign burst IDs
+    # We use cumsum to create a unique ID for each burst of messages, we use it on the boolean mask, sums true so each new burst will get unique ID
     burst_id = is_new_burst.groupby(df_sorted['user']).cumsum()
 
     # Count messages in each burst and validate it more than min burst size
     burst_sizes = df_sorted.groupby(['user', burst_id]).size()
-    bursts_per_user = (burst_sizes >= min_burst_size).groupby(level=0).sum()
+    bursts_per_user = (burst_sizes >= min_burst_size).groupby('user').sum()
 
     # Return the result sorted from high to low
     return bursts_per_user.sort_values(ascending=False)
@@ -211,6 +214,8 @@ def calculate_conversation_starters(df: pd.DataFrame, inactivity_threshold_hours
 
     # Identify conversation starters and their counts
     starter_counts = df_sorted.loc[gap_hours >= inactivity_threshold_hours, 'user'].value_counts()
+
+    # Sort by count and return
     return starter_counts.sort_values(ascending=False)
 
 
