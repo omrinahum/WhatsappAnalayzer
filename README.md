@@ -1,42 +1,38 @@
 # 📱 WhatsApp Chat Analyzer
 
-A comprehensive **WhatsApp Chat Analyzer** built with Python and Streamlit that provides detailed insights into your WhatsApp conversations. Analyze message patterns, user behavior, emoji usage, and much more with beautiful interactive visualizations.
+A comprehensive **WhatsApp Chat Analyzer** built with Python and Streamlit that provides detailed insights into your WhatsApp conversations. Analyze message patterns, user behavior, emoji usage, and much more with interactive visualizations.
 
-![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
-![Streamlit](https://img.shields.io/badge/streamlit-v1.28+-red.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+##  Features
 
-## 🌟 Features
-
-### 📊 **Chat Analysis**
+###  **Chat Analysis**
 - **Basic Statistics**: Total messages, users, conversation duration
 - **User Metrics**: Messages per user, average message length
 - **Response Time Analysis**: Calculate average response times between users
 
-### 👥 **Individual User Analysis**
+###  **Individual User Analysis**
 - **Personal Statistics**: Detailed breakdown for each participant
 - **User Comparison**: Side-by-side comparison of different metrics
 - **Fast User Switching**: Optimized performance for instant user selection
 
-### ⏰ **Time Patterns**
+###  **Time Patterns**
 - **Hourly Activity**: Message distribution throughout the day
 - **Daily Activity**: Conversation patterns across weekdays
 - **Peak Hours**: Identify most active communication periods
 
-### 📝 **Content Analysis**
+###  **Content Analysis**
 - **Word Frequency**: Most commonly used words (supports Hebrew & English)
 - **Emoji Analysis**: Top emojis and emoji usage per user
 - **Laugh Detection**: Analyze humor patterns with "חחח", "lol", "lmao" detection
 - **Message Bursts**: Detect when users send multiple messages quickly
 - **Conversation Starters**: Identify who initiates conversations after inactivity
 
-### 🎨 **Visualizations**
+###  **Visualizations**
 - Interactive charts powered by Plotly
 - Hebrew text support with proper RTL rendering
 - Responsive design for all screen sizes
 - Export-ready visualizations
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 
@@ -52,13 +48,14 @@ A comprehensive **WhatsApp Chat Analyzer** built with Python and Streamlit that 
 
 3. **Run the application**
    ```bash
-   streamlit run src/streamlit_app.py
+   cd src
+   python main.py
    ```
 
 4. **Open your browser**
    Navigate to `http://localhost:8501` to access the application.
 
-## 📁 How to Export WhatsApp Chat
+##  How to Export WhatsApp Chat
 
 ### For Android:
 1. Open WhatsApp and go to the chat you want to analyze
@@ -136,7 +133,7 @@ The analyzer supports WhatsApp export formats from:
 
 ## 🧪 Testing
 
-The project includes comprehensive tests to ensure reliability and accuracy:
+The project includes unit tests to ensure reliability.
 
 ### Running Tests
 ```bash

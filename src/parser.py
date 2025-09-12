@@ -10,7 +10,7 @@ def parse_whatsapp(file_path):
     """
     Parsing data according to Whatsapp exporting format
     """
-    # Containts tuples of datetime, user, and message
+    # Containts dict of datetime, user, and message
     chat_data = []
 
     # Hebrew-style datetime format: [5.8.2025, 15:40:24], user: message
