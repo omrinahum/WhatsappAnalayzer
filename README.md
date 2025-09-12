@@ -1,4 +1,4 @@
-# 📱 WhatsApp Chat Analyzer
+#  WhatsApp Chat Analyzer
 
 A comprehensive **WhatsApp Chat Analyzer** built with Python and Streamlit that provides detailed insights into your WhatsApp conversations. Analyze message patterns, user behavior, emoji usage, and much more with interactive visualizations.
 
@@ -70,7 +70,7 @@ A comprehensive **WhatsApp Chat Analyzer** built with Python and Streamlit that 
 4. Choose "Without Media"
 5. Save the `.txt` file to your device
 
-## 🎯 Usage
+##  Usage
 
 1. **Upload Your Chat**: Use the file uploader to select your exported WhatsApp chat file
 2. **Automatic Processing**: The app automatically detects and parses the chat format
@@ -80,7 +80,7 @@ A comprehensive **WhatsApp Chat Analyzer** built with Python and Streamlit that 
    - **Time Patterns**: Temporal analysis of conversations
    - **Words & Emojis**: Content and expression analysis
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 WhatsappAnalyzer/
@@ -100,7 +100,7 @@ WhatsappAnalyzer/
 └── README.md                 # This file
 ```
 
-## 🔧 Technical Details
+##  Technical Details
 
 ### Performance Optimizations
 - **Session State Caching**: Efficient caching system for fast user switching
@@ -117,7 +117,7 @@ WhatsappAnalyzer/
 - **No Data Upload**: Your chat data never leaves your computer
 - **Memory Management**: Efficient processing of large chat files
 
-## 📊 Supported Chat Formats
+##  Supported Chat Formats
 
 The analyzer supports WhatsApp export formats from:
 - ✅ Android devices
@@ -125,15 +125,10 @@ The analyzer supports WhatsApp export formats from:
 - ✅ WhatsApp Web
 - ✅ Multiple languages (Hebrew, English, and more)
 
-## ⚡ Optimizations Highlights
 
-- **Optimized Processing Pipeline**: Streamlined parsing and visualization for high performance on large datasets.
-- **Intelligent Caching**: Stores pre-computed analytics in session state for instant tab and user switching.
-- **High Throughput**: Processes up to 5M characters in under 2 seconds without compromising accuracy.
+##  Testing
 
-## 🧪 Testing
-
-The project includes unit tests to ensure reliability.
+The project includes unit tests to ensure reliability
 
 ### Running Tests
 ```bash
